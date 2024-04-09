@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+ <form action="thankyou.html" method="post">
+   <fieldset>
+   <legend>User Information</legend>
+     <label>Enter your name:<br>
+     <input type="text" name="name" /></label><br>
+     <label>Enter your password:<br>
+     <input type="text" name="password" /></label><br>
+     <label>Tell us about you:</label><br>
+      <textarea name="comments" cols="20" rows="4"></textarea>
+    </fieldset>
+     <label>Are you new to my site?</label><br>
+     <input type="radio" name="site" value="yes" />yes
+     <input type="radio" name="site" value="no" />no<br>
+     
+   <label>Do you want to subscribe to my blog?</label>
+       <input type="checkbox" name="subscribe"
+              value="yes" checked="checked" /><br>
+   <label>What is your student's year?</label>
+       <select name="devices">
+ <option value="Select the option">Select the option</option>
+ <option value="2022">2022</option>
+ <option value="2023">2023</option>
+ <option value="2024">2024</option>
+ <option value="2025">2025</option>
+ <option value="2026">2026</option>
+ </select>
+     <br>
+     <label>Where did you hear about me?</label><br>
+     <select name="option" size="3"
+ multiple="multiple">
+ <option value="Web" selected="selected">
+ Web</option>
+ <option value="Newspaper">Newspaper</option>
+ <option value="Friends"
+ selected="selected">Friends</option>
+ <option value="Other">Other</option>
+</select>
+     <br>
+     <input type="submit" value="Submit" />
 
+  </form>
+</body>
+</html>
