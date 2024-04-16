@@ -1,1 +1,63 @@
+#container{
+    margin-top:20%;
+    margin-left:10%;
+    margin-right:10%;
+    margin-bottom:5%;
+   
+}
+.row{
+    position:relative;
+    margin-left:10%;
+    margin-right:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
 
+.white{
+    border: 1px solid black;
+    width: 10%;
+    height: 60px;
+    background-color: white;
+    float:left;
+   }
+    
+   .black{
+    border: 1px solid black;
+    width: 10%;
+    height: 60px;
+    background-color:black;
+    float:left;
+   }
+   #title {
+    position:fixed;
+    top:0px;
+    left:0px; 
+    padding:10px;
+    margin:0px;
+    width:100%;
+    background-color:rgb(215, 215, 106);
+    text-align:center; 
+    z-index:10;
+   }
+   #footer {
+    border:solid 1px;
+    width:100%;
+    margin-top:20%;
+    margin-bottom:5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 215, 106);
+   }
+   body {
+    background-image:url("https://media.istockphoto.com/id/1634513475/photo/autumn-or-fall-leaves-in-floral-watercolor-background-for-thanksgiving-or-fall-designs-orange.jpg?b=1&s=612x612&w=0&k=20&c=pgBrR7AGYhRkqxVkdh6I0l3eTctK12NhZ5Ee2m2RMlo=");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   img {
+    margin-left: 5px;
+    margin-top:10px;
+    }
+
+   
