@@ -1,0 +1,37 @@
+body{
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+}
+.container{
+    margin-top: 10%;
+    margin-bottom: 40%;
+    width: auto;
+    height: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(70px);
+    padding: 20px 60px;
+    border-radius: 15px;
+    border-color: transparent;
+}
+.container:hover{
+backdrop-filter: blur(5px);
+border: 10px solid pink;
+transition-duration: 0.7s;
+}
+.rhombus{
+
+  margin: 20px 10px;
+text-align: center;
+background-color: rgb(250, 250, 245);
+border-radius: 10px;
+border: 1px solid pink;
+}
