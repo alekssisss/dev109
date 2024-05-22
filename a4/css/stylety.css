@@ -1,0 +1,15 @@
+body{
+    background-image: url("../images/ty.jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ensures the body takes up at least the full height of the viewport */
+    width: 100%;
+    overflow: hidden;
+  
+    
+    
+}
