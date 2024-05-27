@@ -1,0 +1,13 @@
+body {
+    height: 200px;
+    background: beige;
+    
+  }
+  .dot {
+   border-radius: 50px;
+    position: absolute;
+  }
+  .dot1{
+    border-radius: 50px;
+  }
+  
