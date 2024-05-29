@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>I Spy Game</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>I Spy Game</h1>
+<p>See if you can find the following objects on the picture. Once you find them, click on them!</p>
+
+<div class="list">
+<p  class="items" id="bear">Bear</p>
+<p class="items" id="robot">Robot</p>
+<p class="items" id="vase">Vase</p>
+<p class="items" id="skeleton">Dinosaur<br> skeleton</p>
+<p class="items" id="tiger">Tiger</p>
+</div>
+<img src="images/image_1.jpg" alt="Picture 1" usemap="#image-map">
+<map name="image-map">
+    <area target="" alt="Bear" title="Bear" href="" coords="403,414,483,547" shape="rect" onclick="foundItem('bear')">
+    <area target="" alt="Robot" title="Robot" href="" coords="1014,538,1094,671" shape="rect" onclick="foundItem('robot')">
+    <area target="" alt="Vase" title="Vase" href="" coords="417,237,497,370" shape="rect" onclick="foundItem('vase')">
+    <area target="" alt="Dinosaur skeleton" title="Dinosaur skeleton" href="" coords="884,345,708,438" shape="rect" onclick="foundItem('skeleton')">
+    <area target="" alt="Tiger" title="Tiger" href="" coords="74,397,4,486" shape="rect" onclick="foundItem('tiger')">
+</map>
+<script src="javascript/file.js"></script>
+</body>
+</html>
